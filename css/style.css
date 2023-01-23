@@ -39,6 +39,10 @@ body{
     background: url(../resources/background.jpg);
 }
 
+.content{
+    display: contents;
+}
+
 header img{
     width: 15%;
 }
@@ -64,6 +68,9 @@ header{
     to{ transform: translate(100%, 20%);}
 }
 
+#about{
+    align-items: center;
+}
 
 .fondo{
     background-color: #925db8;
@@ -79,6 +86,7 @@ header{
 nav{
     position: fixed;
     top:0;
+    white-space: nowrap;
     
 }
 
@@ -143,3 +151,44 @@ nav ul li{
 
 /* Info */
 /* Clases pantalla principal */
+
+html {
+  font-size: 1vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 2.5vw ;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 2vw ;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 1.3vw ;
+      }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 1vw ;
+      }
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    
+}
