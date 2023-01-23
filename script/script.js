@@ -57,13 +57,14 @@ compartir.addEventListener('click', function(evento){
 //cambiar una imagen por otra cuando hace hover
 const anchoOriginal = document.getElementById('imageIcono').width;
 const imagenOriginal = document.getElementById('imageIcono').getAttribute('src');
+
 function hover(imagen){
-    imagen.setAttribute('src', '../resources/profile.png');
+    imagen.setAttribute('src', 'https://raw.githubusercontent.com/IrrealV/PortfolioFinal/main/resources/profile.png');
     imagen.width = anchoOriginal;
 };
 
 function unHover(imagen){
-    imagen.setAttribute('src', `../${imagenOriginal}` )
+    imagen.setAttribute('src', `${imagenOriginal}` )
 }
 
 //alternar colores cuando hover
