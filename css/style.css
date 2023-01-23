@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Clases pantalla de carga */
+.loader-screen{
+    background: url('../resources/matrix.gif');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10000;
+    -webkit-transition:  all 1s ease;
+    -o-transition:  all 1s ease;
+    transition:  all 1s ease;
+}
+#img-responsive{
+    max-width: 30%;
+    animation: spin 2s linear ;
+}
+
+.progress-bar{
+    animation: carga 2s linear ;
+}
+
+@keyframes spin{
+    from { transform: rotate(0deg);}
+    to { transform:rotate(360deg);}
+}
+
+@keyframes carga{
+    from { width: 0%;}
+    to{ width: 100%;}
+}
+
+/* Clases pantalla de carga */
+
+
+/* Clases pantalla principal */
+body{
+    background: url(../resources/background.jpg);
+}
+
+header img{
+    width: 15%;
+}
+
+header{
+    background-color: #c6a845;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#notificacion{
+    background-color: white;
+    display: flex;
+    position: fixed; 
+    z-index: 100;
+    right: 20%;
+    transform: translate(100%, -100%);
+}
+
+@keyframes popup {
+    from { transform: translate(100%, -100%);}
+    to{ transform: translate(100%, 20%);}
+}
+
+
+.fondo{
+    background-color: #925db8;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.resize img{
+    width: 35%;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    
+}
+
+/*Navbar*/
+nav,nav ul li{
+    background-color: #54a4da;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.proyectos{
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+}
+
+@keyframes suaveCambio {
+    from{
+        filter: invert(0%);
+    }
+    to{
+        filter: invert(100%);
+    }
+    
+}
+@keyframes suaveDesCambio {
+    from{
+        filter: invert(100%);
+    }
+    to{
+        filter: invert(0%);
+    }
+    
+}
+
+/*Navbar*/
+
+
+/* Info */
+.bordes{
+    border-radius: 5%;
+}
+
+.logos{
+    max-width: 23%;
+}
+
+.equitativo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Info */
+/* Clases pantalla principal */
