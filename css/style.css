@@ -140,6 +140,7 @@ nav ul li{
 
 .logos{
     max-width: 23%;
+    margin: 0 3% 0 3%;
 }
 
 .equitativo{
@@ -151,6 +152,7 @@ nav ul li{
 
 /* Info */
 /* Clases pantalla principal */
+
 
 html {
   font-size: 1vw;
