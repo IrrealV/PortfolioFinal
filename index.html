@@ -9,18 +9,18 @@
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-        
-            <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-            <link
+
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
-            <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link
+            href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+            rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="resources/favicon.png">
         <title>¡Bienvenido!</title>
-        <style>
-            
-        </style>
+        <style></style>
     </head>
 
     <!-- La estructura de las clases es la siguiente: (clases personales) || (clases
@@ -33,7 +33,7 @@
 
         <!-- Pantalla de carga principal -->
         <div id="carga" class="loader-screen">
-            <div class=" text-light text-center
+            <div class=" text-center
         || col-6 offset-3 pt-5 pb-5">
                 <h1>¡Bienvenid@ a mi portfolio!</h1>
                 <img
@@ -58,7 +58,8 @@
                     class=' || mt-2 mb-2 offset-md-3 offset-lg-0 || col-12  / col-sm-12 / col-md-6 / col-lg-3 / col-xl-3 '>
                     <img class="img-fluid" src="resources/faviconGrande.png" alt="">
                 </div>
-                <div class="text-center text-lg-left || mt-2 mb-2 offset-sm-2 offset-lg-0 offset-xl-1 || col-12  / col-sm-8 / col-md-8 / col-lg-4 / col-xl-5  ">
+                <div
+                    class="text-center text-lg-left || mt-2 mb-2 offset-sm-2 offset-lg-0 offset-xl-1 || col-12  / col-sm-8 / col-md-8 / col-lg-4 / col-xl-5  ">
                     <h2 class="h2-responsive">¿Quién es Victor?</h2>
                 </div>
                 <div class=" text-right navbar navbar-expand || content || col-lg-4">
@@ -94,7 +95,7 @@
                                 </span>
                             </a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </header>
@@ -108,7 +109,7 @@
                         onmouseover="hover(this)"
                         onmouseout="unHover(this);"
                         alt="Icono">
-                    <div class="text-center text-light mt-2">
+                    <div class="text-center mt-2">
                         <h3 class="h3">Victor Manuel Heras Durillo</h3>
                         <h4 class="h4">Programador fullstack</h4>
                     </div>
@@ -142,12 +143,12 @@
                     </li>
                 </ul>
             </nav>
-            <div class="container">
-                <article id="about" class="row mt-4">
-                    <section class=" bg-info rounded-pill offset-3 offset-lg-0 || col-6 col-lg-4 ">
-                        <img class="img-fluid p-3 rounded-pill" src="./resources/profile.jpg" alt="">
+            <div>
+                <article id="about" class="row m-5 bordes">
+                    <section class=" rounded offset-3 offset-lg-0 || col-6 col-lg-4 ">
+                        <img class="img-fluid p-3 bordes" src="./resources/profile.jpg" alt="">
                     </section>
-                    <section class=" bordes || bg-info offset-lg-1 || col-lg-7">
+                    <section class=" bordes ||  offset-lg-1 || col-lg-7">
                         <h1 class="text-center mt-3 h1">Sobre Mi</h1>
                         <div>
                             <h5 class=" h5 m-3 mt-4">
@@ -157,24 +158,37 @@
                                 términos "campechano, sencillo, alegre" refiriendose a mi.
                             </h5>
                             <h5 class=" h5 m-3 mt-5">
-                                También tengo mis puntos bajos como todo el mundo, no tengo ojo para el diseño,
-                                me gusta tomarme las cosas con calma y normalmente me cuesta reconocer los límites.
+                                En mis 21 años de edad la única experiencia laboral relevante que he tenido ha
+                                sido mis tres meses de prácticas del grado medio, sin embargo, desde que entré a
+                                SMR (grado medio: Sistemas Microinformáticos y Redes) he tenido una meta muy
+                                clara: La ciberseguridad.
                             </h5>
+                            <h5 class=" h5 m-3 mt-5">
+                                Ahora mismo estudio el primer año de DAM (grado superior: Desarrollo
+                                Aplicaciones Multiplataforma) en escuela Estech (Linares) y, en mi tiempo libre,
+                                hago cursos de hacking ético, redes y front (un mix raro lo sé).
+                            </h5>
+                            <h5 class=" h5 m-3 mt-5">Aquí podrás ver mi avance a lo largo del tiempo, las
+                                pifiadas (nadie es perfecto) y mis logros para llegar a mi meta.</h5>
                         </div>
-                        <h1 class="text-center"><a href="https://www.linkedin.com/in/vmheras/"><i class="p-2 pl-3 pr-3 bg-light rounded icon-linkedin"></i></a></h1>
+                        <h1 class="text-center">
+                            <a href="https://www.linkedin.com/in/vmheras/">
+                                <i class="p-2 pl-3 pr-3 bg-light rounded icon-linkedin"></i>
+                            </a>
+                        </h1>
                     </section>
                 </article>
-                <article id="experiences" class="bordes row mt-4 bg-info ">
+                <article id="experiences" class="bordes container-fluid row mt-4 ">
                     <section class="col-12">
                         <h1 class="text-center h1 mt-3">Experiencias reales</h1>
                     </section>
                     <section class="row">
                         <div class="col-6">
                             <div class="row">
-                                <div class=" offset-3 offset-lg-4 || col-3 col-lg-2">
+                                <div class=" offset-1 offset-lg-4 || col-5 col-lg-2">
                                     <img class="img-fluid" src="./resources/shopify.png" alt="">
                                 </div>
-                                <div class="  col-3 col-lg-2">
+                                <div class="  col-5 col-lg-2">
                                     <img class="img-fluid" src="./resources/liquid.png" alt="">
                                 </div>
                                 <div class=" offset-2 col-8">
@@ -183,7 +197,7 @@
                                         la cual está actualmente funcionando y con el cliente muy contento, de hecho, de
                                         vez en cuando me sigue llamando para implementar nuevas funciones.
                                     </h5>
-                                    <h5  class="h5">
+                                    <h5 class="h5">
                                         Esta es la web en cuestión:
                                     </h5>
                                 </div>
@@ -197,13 +211,13 @@
                         </div>
                         <div class="col-6">
                             <div class="row">
-                                <div class="offset-3 offset-lg-4 || col-3 col-lg-2">
+                                <div class="offset-1 offset-lg-4 || col-5 col-lg-2">
                                     <img class="img-fluid" src="./resources/alcampo.png" alt="">
                                 </div>
-                                <div class=" col-3 col-lg-2">
+                                <div class=" col-5 col-lg-2">
                                     <img
                                         class="img-fluid"
-                                        src="https://carrera-es.scc.com/wp-content/uploads/2020/06/scc-logo.png"
+                                        src="./resources/SCC.png"
                                         alt="">
                                 </div>
                                 <div class=" offset-2 col-8">
@@ -221,7 +235,7 @@
                         </div>
                     </section>
                 </article>
-                <article id="knowledge" class="bordes text-center row mt-4 bg-info">
+                <article id="knowledge" class="bordes text-center row mt-4">
                     <section class="col-12 text-center">
                         <h1 class="h1">Habilidades</h1>
                         <h5 class="h5">Actualmente manejo estas herramientas e idiomas</h5>
@@ -239,8 +253,8 @@
                             class="logos img-fluid"
                             src="https://cdn-icons-png.flaticon.com/512/919/919828.png"
                             alt="">
-                        </section>
-                        <section class=" mt-5 col-12">
+                    </section>
+                    <section class=" mt-5 col-12">
                         <img
                             class="logos img-fluid"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
@@ -253,13 +267,13 @@
                             class="logos img-fluid"
                             src="https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
                             alt="">
-                        </section>
-                        <section class=" mt-5 col-12">
+                    </section>
+                    <section class=" mt-5 col-12">
                         <img
                             class="logos img-fluid"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"
                             alt="">
-                            <img
+                        <img
                             class="logos img-fluid"
                             src="https://img.icons8.com/color/480/vue-js.png"
                             alt="">

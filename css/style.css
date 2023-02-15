@@ -3,7 +3,7 @@ html{
 }
 /* Clases pantalla de carga */
 .loader-screen{
-    background: url('../resources/matrix.gif');
+    background: beige;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -36,7 +36,7 @@ html{
 
 /* Clases pantalla principal */
 body{
-    background: url(../resources/background.jpg);
+    background: rgb(251, 251, 240);
 }
 
 .content{
@@ -48,7 +48,6 @@ header img{
 }
 
 header{
-    background-color: #c6a845;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,10 +69,10 @@ header{
 
 #about{
     align-items: center;
+    background-color: #4733354e;
 }
 
 .fondo{
-    background-color: #925db8;
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
@@ -92,7 +91,7 @@ nav{
 
 /*Navbar*/
 nav,nav ul li{
-    background-color: #54a4da;
+    background-color: #548687;
 }
 
 nav ul{
@@ -135,11 +134,11 @@ nav ul li{
 
 /* Info */
 .bordes{
-    border-radius: 5%;
+    border-radius: 30px;
 }
 
 .logos{
-    max-width: 23%;
+    max-width: 17%;
     margin: 0 3% 0 3%;
 }
 
